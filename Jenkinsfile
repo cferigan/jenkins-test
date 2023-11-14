@@ -1,6 +1,6 @@
 pipeline {
 
-    agent docker { image 'cferigan/flask-app'}
+    agent docker { image '0d2ff418556d'}
 
     stages {
 
@@ -9,7 +9,7 @@ pipeline {
             steps {
 
                 sh '''
-                sh 'cferigan/flask-app'
+                sh '0d2ff418556d'
                 '''
 
             }
